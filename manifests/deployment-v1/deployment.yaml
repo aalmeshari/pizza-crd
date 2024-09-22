@@ -12,7 +12,7 @@ spec:
       webhook: "true"
   template:
     metadata:
-      labels:
+      labels: 
         webhook: "true"
     spec:
       serviceAccountName: webhook
